@@ -1,8 +1,8 @@
-= Hackathon online do IFNMG do Campus Arinos
+# Hackathon online do IFNMG do Campus Arinos
 
-== Desafio
+## Desafio
 
-== Como executar o projeto de exemplo
+## Como executar o projeto de exemplo
 
 Para iniciar o Kafka
 
