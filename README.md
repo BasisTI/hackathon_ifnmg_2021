@@ -7,14 +7,14 @@
 Para iniciar o Kafka
 
 ```
-docker-composer up broker connect control-center schema_registry zookeeper
+docker-compose up broker connect control-center schema_registry zookeeper
 ```
 
 Para iniciar o Projeto de exemplo
 
 ```
-docker-composer up hackathon-service
-docker-composer up hackathon-client
+docker-compose up hackathon-service
+docker-compose up hackathon-client
 ```
 
 Para iniciar a simulação da coleta de dados dos sensores:
