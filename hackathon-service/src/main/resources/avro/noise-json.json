@@ -1,5 +1,5 @@
 {
-  "name": "datagen-noise-sensor",
+  "name": "datagen-noise-json-sensor",
   "config": {
     "connector.class": "io.confluent.kafka.connect.datagen.DatagenConnector",
     "kafka.topic": "noise-sensor",
