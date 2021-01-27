@@ -98,6 +98,12 @@ desafio a transmissão pode ser feita diretamente pelo sensor para
 simplificar, o objetivo sendo mostrar a viabilidade de construção de um
 aparelho desse tipo por um custo baixo.
 
+A geração dos dados dos sensores pode ser simulada, como por exemplo com
+o uso do [Kafka Connect
+Datagen](https://docs.confluent.io/platform/current/tutorials/examples/clients/docs/kafka-connect-datagen.html).
+Ele pode ser usado como método para simular os dados coletados dos
+sensores e envialos para um ponto único.
+
 ![Exemplo de aparelhos IoT se comunicando através de um
 *Gateway*](img/iot-gateway.png)
 

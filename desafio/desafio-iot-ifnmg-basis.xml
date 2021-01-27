@@ -101,6 +101,7 @@ Monitoramento dos sons da cidade.
 * Medição em decibéis.</simpara>
 <simpara>A localização poderá um ponto definido pela latitude e longitude, neste caso pode ser incluído um módulo tipo GPS <footnote><simpara>A plataforma NodeMCU pode ser utilizada para geolocalização, exemplo: <ulink url="https://circuitdigest.com/microcontroller-projects/how-to-track-location-with-nodemcu-using-google-map-api">https://circuitdigest.com/microcontroller-projects/how-to-track-location-with-nodemcu-using-google-map-api</ulink></simpara></footnote> ou a posição pode ser configurada na instalação. No caso de monitoramento em um ambiente fechado, essa posição poderá ser uma <emphasis>String</emphasis>, Refeitório canto noroeste.</simpara>
 <simpara>Os aparelhos IoT são geralmente conectados a um <emphasis>Gateway</emphasis> local que efetua o envio dos dados para os serviços de processamento. Para esse desafio a transmissão pode ser feita diretamente pelo sensor para simplificar, o objetivo sendo mostrar a viabilidade de construção de um aparelho desse tipo por um custo baixo.</simpara>
+<simpara>A geração dos dados dos sensores pode ser simulada, como por exemplo com o uso do <ulink url="https://docs.confluent.io/platform/current/tutorials/examples/clients/docs/kafka-connect-datagen.html">Kafka Connect Datagen</ulink>. Ele pode ser usado como método para simular os dados coletados dos sensores e envialos para um ponto único.</simpara>
 <figure><title>Exemplo de aparelhos IoT se comunicando através de um <emphasis>Gateway</emphasis></title>
 <mediaobject>
   <imageobject>
