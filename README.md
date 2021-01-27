@@ -123,6 +123,8 @@ docker-compose up hackathon-service
 docker-compose up hackathon-client
 ```
 
+Endereços:
+
 * [Client](http://localhost:4200)
 * [Service](http://localhost:8080)
 
@@ -133,6 +135,8 @@ O Elasticsearch com o Kibana pode ser usado para a visualização dos dados e ar
 ```
 docker-compose up elasticsearch kibana
 ```
+
+Endereços:
 
 * [Elasticsearch](http://localhost:9200)
 * [Kibana](http://localhost:5601)
