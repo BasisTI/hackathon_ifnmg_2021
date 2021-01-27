@@ -231,6 +231,67 @@ Serviços rodando com <ulink url="https://knative.dev/">Knative</ulink> ativados
 </mediaobject>
 </figure>
 <simpara>Para os serviços de Streams com Kafka, Elasticsearch ou KNative podem ser utilizados frameworks de mercado como <ulink url="https://spring.io/projects/spring-boot">Spring Boot</ulink> (com <ulink url="https://docs.spring.io/spring-cloud-stream/docs/3.0.8.RELEASE/reference/html/">Spring Cloud Stream</ulink>) ou <ulink url="https://quarkus.io/">Quarkus</ulink> (como <ulink url="https://quarkus.io/guides/funqy-knative-events">Quarkus Funqy</ulink>). O uso do Python pode ser interessante pois a linguagem possui muitas implementações de bibliotecas científicas úteis no contexto do desafio.</simpara>
+<simpara>Os possíveis níveis de exposição do volume sonoro que são aceitos por <ulink url="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95">período de tempo</ulink> podem ser encontrados no site da <ulink url="https://www.osha.gov/noise">OSHA</ulink>.</simpara>
+<figure><title>Quão alto é muito alto?</title>
+<mediaobject>
+  <imageobject>
+  <imagedata fileref="img/loud.png"/>
+  </imageobject>
+  <textobject><phrase>loud.png</phrase></textobject>
+</mediaobject>
+</figure>
+<table
+frame="all"
+rowsep="1" colsep="1"
+>
+<title>Níveis de som aceitos</title>
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="50*"/>
+<colspec colname="col_2" colwidth="50*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Duração por dia (horas)</simpara></entry>
+<entry align="left" valign="top"><simpara>Volume sonoro (dBA)</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>8</simpara></entry>
+<entry align="left" valign="top"><simpara>90</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>6</simpara></entry>
+<entry align="left" valign="top"><simpara>92</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>4</simpara></entry>
+<entry align="left" valign="top"><simpara>95</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>3</simpara></entry>
+<entry align="left" valign="top"><simpara>97</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>2</simpara></entry>
+<entry align="left" valign="top"><simpara>100</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>1 1/2</simpara></entry>
+<entry align="left" valign="top"><simpara>102</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"><simpara>105</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>1/2</simpara></entry>
+<entry align="left" valign="top"><simpara>110</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>1/4  ou menor</simpara></entry>
+<entry align="left" valign="top"><simpara>115</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
 </section>
 <section id="_módulo_3_dashboards_e_relatórios_de_monitorammento">
 <title>Módulo 3 - Dashboards e relatórios de monitorammento</title>

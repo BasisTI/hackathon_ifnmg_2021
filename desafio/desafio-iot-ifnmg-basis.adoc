@@ -106,6 +106,45 @@ image::broker-trigger-overview.png[]
 
 Para os serviços de Streams com Kafka, Elasticsearch ou KNative podem ser utilizados frameworks de mercado como https://spring.io/projects/spring-boot[Spring Boot] (com https://docs.spring.io/spring-cloud-stream/docs/3.0.8.RELEASE/reference/html/[Spring Cloud Stream]) ou https://quarkus.io/[Quarkus] (como https://quarkus.io/guides/funqy-knative-events[Quarkus Funqy]). O uso do Python pode ser interessante pois a linguagem possui muitas implementações de bibliotecas científicas úteis no contexto do desafio.
 
+Os possíveis níveis de exposição do volume sonoro que são aceitos por https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95[período de tempo] podem ser encontrados no site da https://www.osha.gov/noise[OSHA].
+
+.Quão alto é muito alto?
+image::loud.png[]
+
+.Níveis de som aceitos
+|===
+|Duração por dia (horas) |Volume sonoro (dBA)
+
+|8
+|90
+
+|6
+|92
+
+|4
+|95
+
+|3
+|97
+
+|2
+|100
+
+|1 1/2
+|102
+
+|1
+|105
+
+|1/2
+|110
+
+|1/4  ou menor
+|115
+
+|===
+
+
 === Módulo 3 - Dashboards e relatórios de monitorammento
 
 Nesse módulo serão desenvolvidas as visuzalições para acompanhar e monitorar os locais barulhentos. Deverá ser possível visualizar os dados em tempo real em mapas ou plantas. A geração de relatórios como o de locais mais barulhentos por período (por exemplo, uma rua de 10h a 12h, o refeitório de 11h30 a 12h45).

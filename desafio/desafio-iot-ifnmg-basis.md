@@ -197,6 +197,63 @@ Funqy](https://quarkus.io/guides/funqy-knative-events)). O uso do Python
 pode ser interessante pois a linguagem possui muitas implementações de
 bibliotecas científicas úteis no contexto do desafio.
 
+Os possíveis níveis de exposição do volume sonoro que são aceitos por
+[período de
+tempo](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95)
+podem ser encontrados no site da [OSHA](https://www.osha.gov/noise).
+
+![Quão alto é muito alto?](img/loud.png)
+
+<table>
+<caption>Níveis de som aceitos</caption>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p>Duração por dia (horas)</p></td>
+<td><p>Volume sonoro (dBA)</p></td>
+</tr>
+<tr class="even">
+<td><p>8</p></td>
+<td><p>90</p></td>
+</tr>
+<tr class="odd">
+<td><p>6</p></td>
+<td><p>92</p></td>
+</tr>
+<tr class="even">
+<td><p>4</p></td>
+<td><p>95</p></td>
+</tr>
+<tr class="odd">
+<td><p>3</p></td>
+<td><p>97</p></td>
+</tr>
+<tr class="even">
+<td><p>2</p></td>
+<td><p>100</p></td>
+</tr>
+<tr class="odd">
+<td><p>1 1/2</p></td>
+<td><p>102</p></td>
+</tr>
+<tr class="even">
+<td><p>1</p></td>
+<td><p>105</p></td>
+</tr>
+<tr class="odd">
+<td><p>1/2</p></td>
+<td><p>110</p></td>
+</tr>
+<tr class="even">
+<td><p>1/4 ou menor</p></td>
+<td><p>115</p></td>
+</tr>
+</tbody>
+</table>
+
 Módulo 3 - Dashboards e relatórios de monitorammento
 ----------------------------------------------------
 
