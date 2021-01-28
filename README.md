@@ -147,7 +147,7 @@ Tecnologias:
 
 * [@angular](https://angular.io/docs)
 * [Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/html/)
-* [Spring Cloud Stream](https://docs.spring.io/spring-boot/docs/current/reference/html/)
+* [Spring Cloud Stream](https://docs.spring.io/spring-cloud-stream/docs/3.1.0/reference/html/)
 * [Apache Kafka](https://kafka.apache.org/documentation/)
 
 Outros clientes do Apache Kafka:
