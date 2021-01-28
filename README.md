@@ -34,25 +34,25 @@ Os dados dos sensores no exemplo são coletados e agrupados em um tópico do Kaf
 Para iniciar a simulação da coleta de dados dos sensores:
 
 ```
-./datagen-start.sh noise
+curl -X POST http://localhost:8083/connectors -H 'Content-Type:application/json' -H 'Accept:application/json' -d @hackathon-service/src/main/resources/avro/noise.json
 ```
 
 Para parar a simulação da coleta de dados dos sensores:
 
 ```
-./datagen-stop.sh noise
+curl -X DELETE http://localhost:8083/connectors/datagen-noise-sensor
 ```
 
 Pode-se optar pelo uso de json na coleta de dados dos sensores:
 
 ```
-./datagen-start.sh noise-json
+curl -X POST http://localhost:8083/connectors -H 'Content-Type:application/json' -H 'Accept:application/json' -d @hackathon-service/src/main/resources/avro/noise-json.json
 ```
 
 Para parar a simulação da coleta de dados dos sensores em json:
 
 ```
-./datagen-stop.sh noise-json
+curl -X DELETE http://localhost:8083/connectors/datagen-noise-json-sensor
 ```
 
 ### Como fazer a integração com java com a fila do Apache Kafka
